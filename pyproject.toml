@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "yourpkg"
 description = ""
 readme = "README.md"
-requires-python = "3.10"
+requires-python = "~=3.10"
 license = "MIT"
 authors = [
   { name = "Shuhei Nitta", email = "huisintheta@gmail.com" }
