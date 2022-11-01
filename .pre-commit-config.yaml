@@ -34,8 +34,7 @@ repos:
     hooks:
       - id: yamllint
         args:
-          - --format
-          - parsable
+          - --format=parsable
   - repo: local
     hooks:
       - id: mypy
