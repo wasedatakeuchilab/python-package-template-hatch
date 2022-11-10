@@ -31,7 +31,8 @@ jobs:
           path: ${{ env.pythonLocation }}
           key: >
             ${{ runner.os }}-
-            python-${{ env.pythonLocation }}-
+            python-
+            ${{ env.pythonLocation }}-
             ${{ hashFiles('pyproject.toml') }}-
             test
       - name: Install dependencies
